@@ -1,6 +1,3 @@
-/*!******************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./assets/scss/styles.scss ***!
-  \******************************************************************************************************************/
 /* From New Branch */
 .header {
   padding: 1.25rem 2.5rem;
@@ -373,280 +370,352 @@
   .logo-nav {
     max-width: 65vw;
   }
+
   .option {
     padding: 5rem 1rem;
   }
 }
+
 @media (max-width: 768px) {
   .header {
     padding: 1rem 3rem;
   }
+
   .logo-nav {
     max-width: 100%;
   }
+
   .logo-nav__logo {
     width: 6.25rem;
   }
+
   .main-menu__item,
   .get-started__item {
     margin-right: 0.5rem;
   }
+
   .main-menu__link--home,
   .main-menu__link--features,
   .main-menu__link--pricing,
   .main-menu__link--blog {
     font-size: 0.8rem;
   }
+
   .get-started__link {
     padding: 0.5rem 1.5rem;
   }
+
   .grow-your-business {
     padding: 2rem 2rem;
     display: flex;
   }
+
   .grow-your-business__title,
   .grow-your-business__description {
     padding: 0 1rem;
   }
+
   .grow-your-business__title {
     font-size: 2.5rem;
   }
+
   .grow-your-business__description {
     font-size: 0.8rem;
   }
+
   .grow-your-business__cta-button {
     font-size: 0.5rem;
     padding: 0.5rem 2rem;
     margin-left: 1rem;
   }
+
   .grow-your-business__cta-arrow {
     width: 2rem;
     margin-left: 1rem;
   }
+
   .right-content {
     width: 100vw;
   }
+
   .right-content__stand-image,
   .right-content__skateboarding-image,
   .right-content__bubble-image {
     max-width: 30vw;
   }
+
   .logo-section {
     padding: 1.5rem;
   }
+
   .logo-images {
     width: 90vw;
     display: flex;
     justify-content: space-around;
     gap: 1rem;
   }
+
   .logo-images img {
     max-width: 10vw;
   }
+
   .subscription-section {
     padding: 1.5rem;
   }
+
   .subscription-section img {
     max-width: 30vw;
     margin-right: 1rem;
   }
+
   .subscription-title,
   .subscription-description,
   .learn-more-link {
     font-size: 1rem;
     max-width: 50vw;
   }
+
   .in-depth-metric {
     padding: 2.5rem;
   }
+
   .in-depth-metric__right {
     width: 50%;
   }
+
   .in-depth-metric__title {
     font-size: 1.5rem;
     text-align: left;
   }
+
   .in-depth-metric__right img {
     max-width: 30vw;
     margin-left: 50px;
   }
+
   .brand img {
     width: 4rem;
   }
+
   .brand__description {
     margin-top: 0.5rem;
     padding-bottom: 1rem;
     font-size: 0.875rem;
     line-height: 1.5;
   }
+
   .pricing {
     max-width: 100vw;
     padding: 2rem;
     text-align: center;
   }
+
   .pricing__title {
     font-size: 2rem;
   }
+
   .option {
     padding: 3rem 1rem;
   }
+
   .toggle-container__yearly,
   .toggle-container__monthly {
     padding: 0.75rem 2rem;
     font-size: 0.5rem;
   }
+
   .option__title,
   .option__price,
   .option__detail {
     font-size: 0.875rem;
   }
+
   .option__cta,
   .option--highlighted .option__cta {
     padding: 0.75rem 2rem;
     font-size: 0.875rem;
   }
 }
+
 @media (max-width: 568px) {
   .header {
     padding: 1rem 3rem;
   }
+
   .logo-nav {
     max-width: 100%;
   }
+
   .logo-nav__logo {
     width: 6rem;
   }
+
   .main-menu__link--home,
   .main-menu__link--features,
   .main-menu__link--pricing,
   .main-menu__link--blog {
     font-size: 0.6rem;
   }
+
   .get-started__link {
     padding: 0.4rem 0.8rem;
   }
+
   .grow-your-business {
     padding: 2rem 2rem;
   }
+
   .grow-your-business__title {
     font-size: 2rem;
   }
+
   .grow-your-business__cta-button {
     font-size: 0.4rem;
     padding: 0.4rem 1.5rem;
   }
+
   .grow-your-business__cta-arrow {
     margin-left: 0.5rem;
   }
+
   .right-content__stand-image,
   .right-content__skateboarding-image,
   .right-content__bubble-image {
     max-width: 40vw;
   }
+
   .logo-section {
     padding: 2.5rem;
   }
+
   .logo-images {
     width: 80vw;
   }
+
   .logo-images img {
     max-width: 10vw;
   }
+
   .subscription-section,
   .in-depth-metric {
     padding: 2.5rem;
   }
+
   .in-depth-metric {
     padding: 3.5rem;
   }
+
   .brand img {
     width: 3rem;
   }
+
   .brand__name {
     font-size: 0.5rem;
   }
+
   .pricing {
     max-width: 100vw;
     padding: 3rem;
   }
+
   .pricing__title {
     font-size: 1.5rem;
   }
+
   .option {
     padding: 1.5rem 0.5rem;
   }
+
   .toggle-container__yearly,
   .toggle-container__monthly {
     padding: 0.5rem 1.5rem;
     font-size: 0.5rem;
   }
+
   .option__title,
   .option__price,
   .option__detail {
     font-size: 0.5rem;
   }
+
   .option__cta,
   .option--highlighted .option__cta {
     padding: 0.5rem 1.75rem;
     font-size: 0.4rem;
   }
 }
+
 @media (max-width: 375px) {
   .header {
     padding: 1rem 1rem;
   }
+
   .logo-nav__logo {
     width: 4rem;
   }
+
   .main-menu__link--home,
   .main-menu__link--features,
   .main-menu__link--pricing,
   .main-menu__link--blog {
     font-size: 0.5rem;
   }
+
   .get-started__link {
     padding: 0.5rem 1rem;
     font-size: 0.4rem;
   }
+
   .grow-your-business {
     padding: 1rem 1rem;
   }
+
   .grow-your-business__title {
     font-size: 1.5rem;
   }
+
   .grow-your-business__cta-button {
     font-size: 0.5rem;
     padding: 0.5rem 1rem;
   }
+
   .grow-your-business__cta-arrow {
     margin-left: 0.5rem;
   }
+
   .brand img {
     width: 2rem;
   }
+
   .brand__name,
   .brand__description {
     font-size: 0.5rem;
   }
+
   .pricing {
     padding: 1rem;
   }
+
   .pricing__title {
     font-size: 1rem;
   }
+
   .option {
     padding: 0.75rem 0.5rem;
   }
+
   .toggle-container__yearly,
   .toggle-container__monthly {
     padding: 0.1rem 0.5rem;
     font-size: 0.4rem;
   }
+
   .option__title,
   .option__price,
   .option__detail {
     font-size: 0.4rem;
   }
+
   .option__cta,
   .option--highlighted .option__cta {
     padding: 0.3rem 0.5rem;
