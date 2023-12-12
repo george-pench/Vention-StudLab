@@ -6,22 +6,20 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     filename: "main.js",
-    path: path.resolve(__dirname, "dist"), // output directory
+    path: path.resolve(__dirname, "dist"),
     publicPath: "/",
   },
   module: {
     rules: [
       {
-        test: /\.scss$/i, // Add this to handle .scss files
+        test: /\.(scss|css)$/,
         use: [
-          MiniCssExtractPlugin.loader, // Extracts CSS into separate files
-          "css-loader", // Translates CSS into CommonJS
-          "sass-loader", // Compiles Sass to CSS
+          process.env.NODE_ENV !== "production"
+            ? "style-loader"
+            : MiniCssExtractPlugin.loader,
+          "css-loader",
+          "sass-loader",
         ],
-      },
-      {
-        test: /\.css$/i, // match any CSS files
-        use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,

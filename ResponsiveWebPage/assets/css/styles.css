@@ -17,10 +17,16 @@
   text-decoration: none;
   padding: 1rem 3.1rem;
   border-radius: 0.5rem;
+  border: none;
   background-color: #ff7143;
   color: #ffffff;
   font-family: "DM Sans", sans-serif;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.get-started__link:hover {
+  background-color: rgb(200, 220, 240);
 }
 
 .main-menu__list,
@@ -84,6 +90,12 @@
   text-decoration: none;
   border-radius: 0.5rem;
   font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.grow-your-business__cta-button:hover {
+  background-color: rgb(200, 220, 240);
 }
 
 .grow-your-business__cta-arrow {
@@ -260,14 +272,20 @@
   display: inline-flex;
 }
 
+.toggle-container__yearly,
+.toggle-container__monthly {
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .toggle-container__yearly {
   padding: 1rem 3.125rem;
   background-color: #5454d4;
   color: #ffffff;
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
-  font-weight: bold;
-  text-decoration: none;
 }
 
 .toggle-container__monthly {
@@ -276,8 +294,11 @@
   background-color: #f8f8f8;
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
-  font-weight: bold;
-  text-decoration: none;
+}
+
+.toggle-container__yearly:hover,
+.toggle-container__monthly:hover {
+  background-color: rgb(200, 220, 240);
 }
 
 .option {
@@ -315,26 +336,34 @@
 
 .option__detail {
   font-size: 1rem;
-  margin-bottom: 0.625rem;
+  margin-bottom: 1rem;
   color: #696871;
   font-family: "Muli", sans-serif;
 }
 
+.option__cta,
+.option--highlighted .option__cta {
+  padding: 1rem 6rem;
+  font-family: "DM Sans", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
 .option__cta {
-  display: inline-flex;
-  align-items: center;
-  padding: 1rem 3.125rem;
   background-color: #ffffff;
   color: #5454d4;
-  text-decoration: none;
   border-radius: 0.5rem;
   font-weight: bold;
 }
 
 .option--highlighted .option__cta {
-  padding: 1rem 3.125rem;
   background-color: #9f3919;
   color: #ffffff;
+}
+
+.option__cta:hover,
+.option--highlighted .option__cta:hover {
+  background-color: rgb(200, 220, 240);
 }
 
 @media (min-width: 1920px) {
