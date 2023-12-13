@@ -1,6 +1,8 @@
+@import "_variables";
+
 .header {
   padding: 1.25rem 2.5rem;
-  background-color: #ffffff;
+  background-color: $color-white;
 }
 
 .logo-nav {
@@ -18,14 +20,14 @@
     padding: 1rem 3.1rem;
     border-radius: 0.5rem;
     border: none;
-    background-color: #ff7143;
-    color: #ffffff;
+    background-color: $color-orange;
+    color: $color-white;
     font-family: "DM Sans", sans-serif;
     font-weight: bold;
     cursor: pointer;
 
     &:hover {
-      background-color: rgb(200, 220, 240);
+      background-color: $color-light-blue;
     }
   }
 
@@ -55,16 +57,16 @@
     font-family: "DM Sans", sans-serif;
 
     &--home {
-      color: #19191b;
+      color: $color-black;
       text-decoration: underline;
-      text-decoration-color: #5454d4;
+      text-decoration-color: $color-blue;
       text-underline-offset: 0.625rem;
     }
 
     &--features,
     &--pricing,
     &--blog {
-      color: #696871;
+      color: $color-grey;
       text-decoration: none;
     }
   }
@@ -81,22 +83,22 @@
 
   &__title {
     font-size: 3.75rem;
-    color: #19191b;
+    color: $color-black;
     font-family: "DM Sans", sans-serif;
   }
 
   &__description {
     padding-bottom: 1.875rem;
     line-height: 1.5;
-    color: #696871;
+    color: $color-grey;
     font-family: "Muli", sans-serif;
     text-align: left;
   }
 
   &__cta-button {
     padding: 1rem 3.125rem;
-    background-color: #5454d4;
-    color: #ffffff;
+    background-color: $color-blue;
+    color: $color-white;
     text-decoration: none;
     border-radius: 0.5rem;
     font-weight: bold;
@@ -104,7 +106,7 @@
     cursor: pointer;
 
     &:hover {
-      background-color: rgb(200, 220, 240);
+      background-color: $color-light-blue;
     }
   }
 
@@ -170,19 +172,19 @@
   .subscription-title {
     margin-right: 11.25rem;
     font-size: 3.125rem;
-    color: #19191b;
+    color: $color-black;
     font-family: "DM Sans", sans-serif;
   }
 
   .subscription-description {
     line-height: 1.5;
-    color: #696871;
+    color: $color-grey;
     font-family: "Muli", sans-serif;
   }
 
   .learn-more-link {
     font-size: 1rem;
-    color: #5454d4;
+    color: $color-blue;
     font-family: "DM Sans", sans-serif;
     text-decoration: none;
     font-weight: bold;
@@ -203,13 +205,13 @@
 
   &__title {
     font-size: 2.5rem;
-    color: #19191b;
+    color: $color-black;
     font-family: "DM Sans", sans-serif;
   }
 
   &__description {
     line-height: 1.5;
-    color: #696871;
+    color: $color-grey;
     font-family: "Muli", sans-serif;
   }
 }
@@ -235,7 +237,7 @@
     }
 
     &__description {
-      color: #696871;
+      color: $color-grey;
       font-family: "Muli", sans-serif;
       margin-top: 0.625rem;
       padding-bottom: 1.25rem;
@@ -265,7 +267,7 @@
   &__title {
     font-size: 3rem;
     font-family: "DM Sans", sans-serif;
-    color: #19191b;
+    color: $color-dark-orange;
     font-weight: bold;
     margin: 0 0 0.5rem;
   }
@@ -290,29 +292,29 @@
     padding: 1rem 3.125rem;
 
     &:hover {
-      background-color: rgb(200, 220, 240);
+      background-color: $color-light-blue;
     }
   }
 
   &__yearly {
     padding-right: 3.125rem;
-    background-color: #5454d4;
-    color: #ffffff;
+    background-color: $color-blue;
+    color: $color-white;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
   }
 
   &__monthly {
     padding-left: 2.75rem;
-    color: #19191b;
-    background-color: #f8f8f8;
+    color: $color-black;
+    background-color: $color-light-grey;
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
   }
 }
 
 .option {
-  background-color: #f8f8f8;
+  background-color: $color-light-grey;
   border-radius: 0.5rem;
   margin-bottom: 3.75rem;
   flex: 1;
@@ -320,11 +322,11 @@
   max-width: calc(33.333% - 2rem);
 
   &--highlighted {
-    background-color: #ff7143;
+    background-color: $color-orange;
 
     .option__detail,
     .option__cta {
-      color: #ffffff;
+      color: $color-white;
       font-family: "DM Sans", sans-serif;
     }
   }
@@ -334,12 +336,12 @@
   &__detail {
     font-family: "DM Sans", sans-serif;
     margin-bottom: 1.25rem;
-    color: #696871;
+    color: $color-grey;
   }
 
   &__price {
     font-size: 2.5rem;
-    color: #1d293f;
+    color: $color-light-black;
     font-weight: bold;
   }
 
@@ -347,19 +349,19 @@
     padding: 1rem 6rem;
     border: none;
     cursor: pointer;
-    background-color: #ffffff;
-    color: #5454d4;
+    background-color: $color-white;
+    color: $color-blue;
     border-radius: 0.5rem;
     font-weight: bold;
 
     &:hover {
-      background-color: rgb(200, 220, 240);
+      background-color: $color-light-blue;
     }
   }
 
   &--highlighted {
     .option__cta {
-      background-color: #9f3919;
+      background-color: $color-dark-orange;
     }
   }
 }
